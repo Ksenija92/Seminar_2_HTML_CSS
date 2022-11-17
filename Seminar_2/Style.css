@@ -1,0 +1,42 @@
+body{
+        background-color: rgb(238, 220, 181);
+        font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #770404cb;
+    font-family: 'Cabana', sans-serif;
+    font-size: 550%;
+    }
+h2{
+    color: #021a01;
+    font-size: 120%;
+}
+p{
+    font-family: 'IM FELL French Canon Italic', sans-serif;
+    font-size: 110%;
+}
+ol{
+    font-size: 110%;
+}
+ul{
+    font-size: 110%;
+}
+
+@font-face {
+	font-family: 'IM FELL French Canon Italic';
+	src: url('../fonts/im_fell_french_canon_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/im_fell_french_canon_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/im_fell_french_canon_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/im_fell_french_canon_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/im_fell_french_canon_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/im_fell_french_canon_italic.svg#im_fell_french_canon_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+	font-family: 'Cabana';
+	src: url('fonts/cabana.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/cabana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/cabana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/cabana.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('.fonts/cabana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/cabana.svg#cabana') format('svg'); /* Chrome < 4, Legacy iOS */
+}
