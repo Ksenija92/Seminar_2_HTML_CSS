@@ -18,8 +18,8 @@ p{
 ol{
     font-size: 110%;
 }
-ul{
-    font-size: 110%;
+.text_strong{
+    font-size: 22px;
 }
 
 @font-face {
